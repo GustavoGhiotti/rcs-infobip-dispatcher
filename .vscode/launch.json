@@ -1,0 +1,35 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Robo Infobip - Enviar",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.py",
+      "args": [
+        "enviar"
+      ],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Robo Infobip - Status",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.py",
+      "args": [
+        "status"
+      ],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Robo Infobip - Relatorio Email",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.py",
+      "args": [
+        "relatorio"
+      ],
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

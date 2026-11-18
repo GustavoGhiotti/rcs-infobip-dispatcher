@@ -1,0 +1,21 @@
+**/venv
+**/__pycache__
+**/logs
+**/spool
+infobip-docs-app.js
+infobip-openapi-specification.json.gz
+
+# segredos e dados locais
+.env
+.env.*
+!.env*.example
+*.pem
+*.key
+*.asc
+**/session/storage.json
+__pycache__/
+.venv/
+venv/
+node_modules/
+logs/
+*.log
